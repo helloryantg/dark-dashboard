@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import SideBarTabs from '../SideBarTabs/SideBarTabs'
+import SideBarProfile from '../SideBarProfile/SideBarProfile'
 
 const Container = styled.div`
     border-right: 4px solid black;
     height: 100%;
-    width: 20%;
+    width: 25%;
     display: flex;
     flex-direction: column;
 `
@@ -22,6 +23,8 @@ class SideBar extends React.Component {
     render() {
         return (
             <Container className="SideBar">
+                <SideBarProfile />
+
                 {this.state.titles.map((title, idx) => 
                     <SideBarTabs title={title} key={idx} />
                 )}

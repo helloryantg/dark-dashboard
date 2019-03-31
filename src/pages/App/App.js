@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
 import SideBar from '../../components/SideBar/SideBar'
+import ColorWidget from '../../components/ColorWidget/ColorWidget'
 
 import styled from 'styled-components'
 
@@ -10,6 +10,7 @@ const Container = styled.div`
   border: none;
   height: 100vh;
   width: 100%;
+  display: flex;
 `
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
     return (
       <Container className="App">
         <SideBar />
+        <ColorWidget />
       </Container>
     )
   }
