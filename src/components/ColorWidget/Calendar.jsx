@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import Block from './Block'
 
 const Container = styled.div`
-    width: 1000px;
-    height: 700px;
+    width: 400px;
+    height: 400px;
     border: 4px solid black;
     display: flex;
     flex-direction: column;
@@ -21,9 +21,9 @@ const Calendar = () => {
     return (
         <Container className="Calendar">
             <BlockRow>
-                <Block /> 
-                <Block /> 
-                <Block /> 
+                <Block color={'red'}/> 
+                <Block color={'blue'}/> 
+                <Block color={'black'}/> 
                 <Block /> 
                 <Block /> 
             </BlockRow>

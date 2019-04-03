@@ -5,12 +5,15 @@ const Container = styled.div`
     border: 2px solid black;
     border-radius: 4px;
     width: 20%;
+    background-color: ${props => props.color};
 `
 
-const Block = () => {
+const Block = (props) => {
     return (
-        <Container className="Block">
-            Block
+        <Container className="Block"
+            color={props.color}
+        >
+            
         </Container>
     )
 }

@@ -6,7 +6,7 @@ import SideBarProfile from '../SideBarProfile/SideBarProfile'
 const Container = styled.div`
     border-right: 4px solid black;
     height: 100%;
-    width: 25%;
+    width: 400px;
     display: flex;
     flex-direction: column;
 `
