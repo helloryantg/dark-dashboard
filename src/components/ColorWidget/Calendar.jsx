@@ -21,11 +21,26 @@ const Calendar = () => {
     return (
         <Container className="Calendar">
             <BlockRow>
-                <Block color={'red'}/> 
-                <Block color={'blue'}/> 
-                <Block color={'black'}/> 
-                <Block /> 
-                <Block /> 
+                <Block 
+                    color={'red'}
+                    border={'darkred'}
+                    /> 
+                <Block 
+                    color={'blue'}
+                    border={'darkblue'}
+                    /> 
+                <Block 
+                    color={'black'}
+                    border={'grey'}
+                    /> 
+                <Block 
+                    color={'red'}
+                    border={'darkred'}
+                /> 
+                <Block 
+                    color={'red'} 
+                    border={'darkred'}
+                    /> 
             </BlockRow>
             <BlockRow>
                 <Block /> 
