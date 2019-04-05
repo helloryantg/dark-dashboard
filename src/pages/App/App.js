@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SideBar from '../../components/SideBar/SideBar'
 import ColorWidget from '../../components/ColorWidget/ColorWidget'
+import CardBoard from '../../components/CardBoard/CardBoard'
 
 import styled from 'styled-components'
 
@@ -18,7 +19,8 @@ class App extends Component {
     return (
       <Container className="App">
         <SideBar />
-        <ColorWidget />
+        {/* <ColorWidget /> */}
+        <CardBoard />
       </Container>
     )
   }
